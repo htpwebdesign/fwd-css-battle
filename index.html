@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FWD - CSS Battle</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>FWD - CSS Battle</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Scoreboard</h2>
+            <div id="scoreList">
+                <!-- Scores will be displayed here -->
+            </div>
+        </section>
+
+        <section>
+            <h2>Enter Your Score</h2>
+            <form id="scoreForm">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="score">Score:</label>
+                    <input type="number" id="score" name="score" required>
+                </p>
+                <p>
+                    <label for="intake">Intake:</label>
+                    <input type="number" id="intake" name="intake" required>
+                </p>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+    </main>
+
+</body>
+</html>
